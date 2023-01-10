@@ -71,3 +71,31 @@ body {
   animation: move-right-down 0.8s 0.2s forwards linear,
     move-down 2.8s 0.3s forwards ease-in;
 }
+
+@keyframes scale-dot {
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes move-right {
+  100% {
+    transform: translateX(0.75rem);
+  }
+}
+
+@keyframes move-right-down {
+  50% {
+    transform: translate(1.5rem, 0.25rem);
+  }
+
+  100% {
+    transform: translate(2rem, 0.5rem);
+  }
+}
+
+@keyframes move-down {
+  100% {
+    transform: translate(10rem, 80vh);
+  }
+}
